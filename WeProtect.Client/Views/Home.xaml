@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="WeProtect.Client.Views.Home"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WeProtect.Client.Views"
+             xmlns:viewModels="clr-namespace:WeProtect.Client.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Content="Demo" Padding="50,15" Margin="10" Command="{Binding Demo}"/>
+            <Button Content="Trial" Padding="50,15" Margin="10" Command="{Binding Trial}"/>
+            <Button Content="BuyOnly" Padding="50,15" Margin="10" Command="{Binding BuyOnly}"/>
+            <Button Content="Subscription" Padding="50,15" Margin="10" Command="{Binding Subscription}"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

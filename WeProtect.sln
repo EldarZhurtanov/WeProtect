@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeProtect.Client", "WeProtect.Client\WeProtect.Client.csproj", "{260CA721-6984-4554-A60B-B8DB9EF4317E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeProtect.Server", "WeProtectServer\WeProtect.Server.csproj", "{3EAF24E4-5144-4B75-B18F-BCAB08EC575B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{260CA721-6984-4554-A60B-B8DB9EF4317E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260CA721-6984-4554-A60B-B8DB9EF4317E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260CA721-6984-4554-A60B-B8DB9EF4317E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260CA721-6984-4554-A60B-B8DB9EF4317E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAF24E4-5144-4B75-B18F-BCAB08EC575B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAF24E4-5144-4B75-B18F-BCAB08EC575B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAF24E4-5144-4B75-B18F-BCAB08EC575B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAF24E4-5144-4B75-B18F-BCAB08EC575B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F7F7E79-3F3D-4C45-8D2A-7121D8F96297}
+	EndGlobalSection
+EndGlobal

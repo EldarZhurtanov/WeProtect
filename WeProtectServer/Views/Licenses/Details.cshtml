@@ -1,0 +1,43 @@
+﻿@model WeProtectServer.Models.License
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>License</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfActivation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfActivation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ActivatorIpAdress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ActivatorIpAdress)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

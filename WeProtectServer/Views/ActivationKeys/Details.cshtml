@@ -1,0 +1,51 @@
+﻿@model WeProtectServer.Models.ActivationKey
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ActivationKey</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfPurchase)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfPurchase)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Key)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Key)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KeyNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KeyNumber)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
